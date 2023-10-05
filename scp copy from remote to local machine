@@ -1,0 +1,5 @@
+# Copy a file from a remote machine by terminal
+scp username@remotehost:/path/folder_name/file_name /Users/xxx/Downloads
+
+# Copy a folder from a remote machine by terminal
+scp -r username@remotehost:/path/folder_name /Users/xxx/Downloads
